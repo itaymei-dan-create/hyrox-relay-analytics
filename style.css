@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+}
+
+#stats {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #eef;
+    border-radius: 6px;
+}
+
+#combo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.combo-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.combo-item.done {
+    background-color: #d1ffd1;
+}
+
+.combo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.times {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.times input {
+    width: 80px;
+    padding: 4px;
+}
+
+.stats-mini {
+    font-size: 0.9em;
+    color: #333;
+    white-space: nowrap;
+}
